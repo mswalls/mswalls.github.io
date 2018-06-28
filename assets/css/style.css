@@ -1,11 +1,14 @@
 html, body {
     height: 100%;
-    }
+}
 
 body {
     display: flex;
     flex-direction: column;
+}
 
+.background { 
+    background-image: url("assets/images/old_map.png")
 }
 .content {
     flex: 1 0 auto;
@@ -13,13 +16,15 @@ body {
     width: 920px; 
     margin-left: 25%;
     margin-right: 25%;
-    
+    background-color: white;
+
    }
 .footer {
     background-color: #bbb;
     color: white;
     padding: 20px;
     flex-shrink: 0;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
     border-top: solid teal;
     text-shadow:
@@ -27,6 +32,7 @@ body {
     1px -1px 0 #000,
     -1px 1px 0 #000,
      1px 1px 0 #000;
+     
 }
 img {
     float: left;
@@ -58,12 +64,13 @@ h1 {
     background-color: teal;
     color: white;
     font-family:'Georgia', 'Times', 'Times New Roman', serif;
-    font-size: 48px;
+    font-size: 32px;
     text-align: left;
     float: left;
     margin-left: 25%;
     margin-right: 25%;
-    width: 400px;
+    width: 255px;
+   
     }
 .heading {
     background-color: rgb(255, 255, 255);
@@ -72,6 +79,8 @@ h1 {
 }
 h3 {
     text-align: left;
-    font-size: 18px;
+    font-size: 32px;
     padding: 20px;
-}
+    color: teal;
+    border-bottom: solid lightgray 1px;
+} 
